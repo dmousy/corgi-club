@@ -1,0 +1,319 @@
+    
+    html {
+      background-color: #ffa500;
+      text-align: center;
+      color: #000000;
+      line-height: 2rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+    
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.75rem;
+    }
+    
+    header {
+        width: 90%;
+        margin: auto;
+        border-bottom: 0.3rem dashed #000000;
+    }
+
+    nav {
+        margin-right: 2rem;
+        font-size: 2rem;
+    }
+
+    nav li {
+        display: inline-flex;
+        align-self: center;
+        list-style: none;
+        margin: 1rem;
+    }
+
+    nav a{
+        color: #000000;
+        text-decoration: underline wavy;
+        text-decoration-color: #ffa500;
+    }
+
+    body {
+      background-color: #ffffff;
+      border-radius: 10rem;
+      width: 80%;
+      height: auto;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    #welcome {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items:center;
+        flex-flow: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 5rem auto 10rem;
+    }
+
+    .welcomepic {
+            width: 20rem;
+            height: 20rem;
+            border-radius: 50%;
+            background-image: url(../images/welcome.avif);
+            background-position: center 45%;
+            background-size: 95%;
+     }
+    .welcometext {
+        width: 40%;
+        height: auto;
+        text-align: right;
+    }
+
+    #activities {
+        width: 90%;
+        margin: 5rem auto 10rem;
+    }
+  
+    .activcontent {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+    
+    .listcontainer {
+        width: 30%;
+        height: auto;
+    }
+    
+    .activlist {
+        text-align: left;
+        font-size: 1.75rem;
+        line-height: 3rem
+    }
+
+    .activpic {
+        width: 20rem;
+        height: 20rem;
+        background-image: url(../images/activ.avif);
+        background-position: center 70%;
+        background-size: cover;
+        border-radius: 50%;
+    }
+   
+    .specialact {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .special{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 10%;
+        margin: 1rem;
+    }
+
+    .specialpic1 {
+        background-image: url(../images/specialpic1.avif);
+        background-position: center;
+        background-size: cover
+    }
+    
+    .specialpic2 {
+        background-image: url(../images/specialpic2.avif);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .specialpic3 {
+        background-image: url(../images/specialpic3.avif);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #joinus {
+        width: 90%;
+        height: auto;
+        margin: 5rem auto 10rem;
+    }
+
+    .joinuspic {
+        width: 70%;
+        height: 20rem;
+        margin: auto;
+        background-image: url(../images/joinus.avif);
+        background-size: cover;
+        background-position: center 40%;
+        border-radius: 10rem;
+    }
+
+    #about {
+        width: 90%;
+        height: auto;
+        margin: 5rem auto 10rem;
+    }
+
+    .aboutpics {
+        display: flex;
+        justify-items:center;
+        justify-content:space-around;
+        align-content: center;
+        align-items: center;
+    }
+
+    .aboutpic {
+        display:inline-flex;
+        width: 50rem;
+        height: 50rem;
+    }
+
+    .aboutpic1 {
+        background-image: url(../images/aboutpic1.avif);
+        background-size: cover; 
+        background-position: center;
+    }
+    
+    .aboutpic2 {
+        background-image: url(../images/aboutpic2.avif);
+        background-size: cover; 
+        background-position: center;
+    }
+    .aboutpic3 {
+        background-image: url(../images/aboutpic3.avif);
+        background-size: cover; 
+        background-position: center;
+    }
+
+    #contact {
+        width: 90%;
+        height: auto;
+        margin: 5rem auto 10rem;
+    }
+
+    footer {
+        width: 90%;
+        margin: auto;
+        border-top: 0.3rem dashed #000000;
+    }
+
+    footer p {
+        font-size: 1rem
+    }
+
+/* media queries */
+
+@media only screen and (max-width: 900px){
+    
+    p {
+        font-size: 1.5rem;
+    }
+    
+    #welcome {
+        display:block;
+        align-content: center;
+        flex-flow: wrap;
+        flex-flow: row;
+    }
+    .welcomepic {
+        margin: auto;
+    }
+    .welcometext {
+        width:auto;
+        text-align: center
+    }
+
+     .activcontent {
+        width:90%;
+        height:auto;
+        display: block;
+        margin: auto;
+    }
+    
+    .listcontainter {
+        display:flex;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .listcontainer {
+        width: 90%;
+    } 
+    
+    .activlist li {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        list-style: none;
+        text-decoration: underline dotted;
+        line-height: 4.5rem;
+    }
+    
+    .activpic {
+        margin: auto;
+        border-radius: 20%;
+    }
+    
+    .special {
+        width: 30rem;
+        height: 15rem;
+        margin-bottom: 2rem; 
+        border-radius: 5rem;
+    }
+    
+    .specialpic1 {
+        background-position: center;
+    }
+    
+    .specialpic2 {
+        background-position: center 30%;
+    }
+    
+    .joinuspic {
+        width: 20rem;
+        border-radius: 50%
+    }
+    
+    .aboutpic {
+        height: 15rem
+    }
+}
+
+@media only screen and (min-width: 600px), (max-width: 700px) {
+    html{
+        min-width: 600px;
+           }
+    h1 {
+        font-size: 2rem;
+    }
+    p, li {
+        text-align: justify-all;
+        font-size: 1.5rem;
+    }
+    
+    .activlist li {
+        line-height: 2.75rem
+    }
+    
+    #header, #welcome, #activities, #joinus, #about, #contact {
+        
+        margin-bottom: 2rem;
+    }
+    
+    .welcomepic {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 10%;
+    }
+    
+    .joinuspic {
+         width: 15rem;
+        height: 15rem;
+        border-radius: 10%;
+    }
+}
